@@ -1,0 +1,22 @@
+
+body {
+  background-color: #FFEFEC;
+  margin-left: 200px;
+  margin-right: 200px
+}
+
+a {
+  color: black
+}
+
+
+a:hover {
+  color: red;
+  border-bottom: none;
+
+}
+
+
+img {
+  max-width: 100%;
+}
