@@ -9,6 +9,10 @@ body {
   font-style: normal;
 }
 
+.text-block {
+  width: 960px;
+  margin: auto;
+}
 a {
   color: black
 }
@@ -16,13 +20,14 @@ a {
 p{
   font-family: cora, sans-serif;
   font-weight: 400;
+  right-margin;
   font-style: normal;
 }
 
 a:link, a:visited {
   background-color: #f44336;
   color: white;
-  padding: 14px 25px;
+  padding: 22px 15px 15px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -31,7 +36,25 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: red;
 }
+.two-colum {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.two-colum img {
+  width: 50%;
+}
 
+.four-colum {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.four-colum img {
+  width: 25%;
+}
 
 img {
   max-width: 100%;
