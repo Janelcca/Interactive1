@@ -1,7 +1,7 @@
 <title>Neighborhood in CSS 2 (Copy)</title>
 
-<head> <link rel="stylesheet" href="css/style2.css"> </<head>
-  
+<head> <link rel="stylesheet" href="exercise-neighborhood-css/style2.css"> </<head>
+
 </head>
 
 body {
