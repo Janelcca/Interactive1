@@ -1,0 +1,47 @@
+body {
+  background-color: #fff6e5;
+  margin-left: 100px;
+  margin-right: 400px;
+  line-height: 1.5;
+  font-family: cora, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-block {
+  width: 960px;
+  margin: auto;
+}
+a {
+  color: #c0fff4
+}
+
+h1{color:#ffa500
+}
+
+h1{color:#ffa500
+}
+
+h2{color:#ffa500
+}
+
+p{
+  font-family: cora, sans-serif;
+  font-weight: 200;
+  right-margin;
+  font-style: normal;
+  margin-right:300px;
+  color:#c78f07;
+}
+
+a:link, a:visited {
+  color: #f44336;
+  padding:15px 22px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+a:hover, a:active {
+  color: #b37400;
+}
