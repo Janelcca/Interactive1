@@ -4,9 +4,9 @@ body {
   margin-left: 100px;
   margin-right: 400px;
   line-height: 1.5;
-  font-family: cora, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: 'Gayathri', sans-serif;
+  font-family: 'Manjari', sans-serif;
+  font-family: 'Lobster', cursive;
 }
 Style Attribute {
     width: 100%;
@@ -34,16 +34,18 @@ h2{color:#8cdd40
 }
 
 p{
-  font-family: cora, sans-serif;
+  font-family: 'Gayathri', sans-serif;
+  font-family: 'Manjari', sans-serif;
+  font-family: 'Lobster', cursive;
   font-weight: 200;
   right-margin;
   font-style: normal;
   margin-right:300px;
-  color:#c78f07;
+  color:#60631a;
 }
 
 a:link, a:visited {
-  color: #f44336;
+  color: #60631a;
   padding:15px 22px;
   text-align: left;
   text-decoration: none;
@@ -51,7 +53,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: #b37400;
+  color: #d3db09;
 }
 .two-colum {
   display: flex;
