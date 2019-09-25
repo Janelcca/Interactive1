@@ -1,6 +1,7 @@
 
 body {
   background-color: #a2a832;
+  padding:0;
   margin-left: 100px;
   margin-right: 400px;
   line-height: 1.5;
@@ -39,6 +40,15 @@ a:link, a:visited {
   text-align: center;
   text-decoration: inherit;
   display: inline-flex;
+}
+#nav {
+  position: sticky;
+  margin-top: 80px;
+  top:0;
+}
+#nav div {
+  display:inline-block;
+  padding-right: 20px;
 }
 
 a:hover, a:active {

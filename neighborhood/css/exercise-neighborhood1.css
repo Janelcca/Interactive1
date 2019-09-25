@@ -47,11 +47,11 @@ a:hover, a:active {
   color: #b37400;
 }
 .two-colum {
-  display: flex;
-  width: 100%;
+  display: inline-block;
+  width: 900px;
   margin-top: 40px;
   margin-bottom: 40px;
-  grid-column-gap: 25px;
+  grid-column-gap: 50px;
 }
 .two-colum img {
   width: 40%;
