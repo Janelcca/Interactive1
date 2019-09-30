@@ -1,0 +1,49 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background-image:
+         linear-gradient(0deg,
+            #0f0e0e 25%, #f0f6fa
+             25%, #f0f6fa 50%,
+              #0f0e0e 50%, #0f0e0e
+               75%, #f0f6fa 75%,
+               #f0f6fa 100%);
+        background-size:
+         80.00px 80.00px;
+}
+
+#starbox {
+  width: 100px;
+      height: 100px;
+      background: image;
+      top: 100px;
+      left: 20px;
+    }
+
+/* shapes */
+#star {
+  clip-path: polygon(50% 0%,
+     61% 35%, 98% 35%, 68% 57%,
+     79% 91%, 50% 70%, 21% 91%,
+      32% 57%, 2% 35%, 39% 35%);
+        width: 150px;
+        height: 150px;
+        background: white;
+        border-radius: 75px;
+        top: 0px;
+        right:220px;
+        position: absolute;
+}
