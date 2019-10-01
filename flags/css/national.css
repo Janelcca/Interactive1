@@ -6,7 +6,7 @@
 
 /* make the background of the page black */
 body {
-        background: black;
+        background: pink;
 }
 
 /* flag canvas */
@@ -14,36 +14,18 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background-image:
-         linear-gradient(0deg,
-            #0f0e0e 25%, #f0f6fa
-             25%, #f0f6fa 50%,
-              #0f0e0e 50%, #0f0e0e
-               75%, #f0f6fa 75%,
-               #f0f6fa 100%);
-        background-size:
-         80.00px 80.00px;
+        background-image: linear-gradient(0deg, #d14bf2 5.56%, #09a3f0 5.56%, #09a3f0 11.11%, #f0e10e 11.11%, #f0e10e 16.67%, #fff 16.67%, #fff 38.89%, #f5ac0e 38.89%, #f5ac0e 44.44%, #f20e0e 44.44%, #f20e0e 50%, #d14bf2 50%, #d14bf2 55.56%, #09a3f0 55.56%, #09a3f0 61.11%, #f0e10e 61.11%, #f0e10e 66.67%, #fff 66.67%, #fff 88.89%, #f5ac0e 88.89%, #f5ac0e 94.44%, #f20e0e 94.44%, #f20e0e 100%);
+  background-size: 90.00px 90.00px;
 }
 
-#starbox {
-  width: 100px;
-      height: 100px;
-      background: image;
-      top: 100px;
-      left: 20px;
-    }
 
-/* shapes */
-#star {
-  clip-path: polygon(50% 0%,
-     61% 35%, 98% 35%, 68% 57%,
-     79% 91%, 50% 70%, 21% 91%,
-      32% 57%, 2% 35%, 39% 35%);
-        width: 150px;
-        height: 150px;
-        background: white;
-        border-radius: 75px;
-        top: 0px;
-        right:220px;
-        position: absolute;
+
+
+img{
+  position: absolute;
+  top: -110px;
+  left:-40px;
+  width: 350px;
+  height: 350px;
+
 }

@@ -1,0 +1,74 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+        background-image: linear-gradient(0deg,
+           #d14bf2 5.56%, #09a3f0 5.56%,
+            #09a3f0 11.11%, #f0e10e 11.11%,
+             #f0e10e 16.67%, #fff 16.67%,
+              #fff 38.89%, #f5ac0e 38.89%,
+               #f5ac0e 44.44%, #f20e0e 44.44%,
+                #f20e0e 50%, #d14bf2 50%,
+                 #d14bf2 55.56%, #09a3f0
+                 55.56%, #09a3f0 61.11%,
+                 #f0e10e 61.11%, #f0e10e
+                 66.67%, #fff 66.67%, #fff
+                  88.89%, #f5ac0e 88.89%,
+                   #f5ac0e 94.44%, #f20e0e
+                   94.44%, #f20e0e 100%);
+background-size: 90.00px 90.00px;
+}
+
+#small-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  background: pink;
+}
+
+.animation-blink {
+  -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes blink {
+  from { background-color: red; }
+  to { background-color: yellow; }
+}
+
+/* Standard syntax */
+@keyframes blink {
+  from { background-color: red; }
+  to { background-color: yellow; }
+}
+
+
+
+img{
+  position: absolute;
+  top: -110px;
+  left:-40px;
+  width: 350px;
+  height: 350px;
+
+}
