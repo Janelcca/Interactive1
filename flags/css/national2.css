@@ -10,6 +10,13 @@ body {
 }
 
 /* flag canvas */
+
+#unicorn {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+}
+
 #canvas {
         width: 500px;
         height: 300px;
@@ -17,16 +24,12 @@ body {
         background-image: repeating-radial-gradient(circle at 100%, #EF892D, #C5C62F 10px, #97CEE9 10px, #ffffff 20px);
 }
 
-#unicorn {
-  width: 10px;
-  height: 50px;
-  position: absolute;
-}
+
 
 
 img{
-  width: 10px;
-  height: 50px;
+  width: 100px;
+  height: 150px;
   position: relative;
   top:30px;
   left:100px;
@@ -50,7 +53,7 @@ img{
   height: 100px;
   background-color:#E75F32;
   border-radius: 100px;
-  border: 30px solid #E9B2BF ;
+  border: 30px double #E9B2BF ;
   position:absolute;
   top: 40px;
   left: 40px;
@@ -106,13 +109,13 @@ img{
 .circle-1
 {
   float: left;
-  margin: 10px;
+  margin: 100px;
   width: 130px;
   height: 130px;
   font: 13px/130px 'Barlow Semi Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #f3f;
+  color: #E9B2BF;
   text-align: center;
   background: rgba(30, 144, 255, 0.6);
   border-radius: 50%;
