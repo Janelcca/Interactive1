@@ -134,7 +134,7 @@ body {
   0% {
     box-shadow: 3 0 0 0px rgba(108, 238, 236, 1.2);
   }
-  100% {
+  40% {
     box-shadow: 0 0 0 35px rgba(158, 238, 108, 1);
   }
 
@@ -145,7 +145,7 @@ body {
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
   }
-  100% {
+  60% {
     box-shadow: 0 0 0 60px rgba(238, 108, 223, 1);
   }
 }
