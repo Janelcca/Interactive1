@@ -3,13 +3,31 @@
 }
 
 body {
-  background-color: #FDF7CF;
+  background-color: #200773;
   font-family: 'UnifrakturCook', cursive;
   font-family: 'Open Sans', sans-serif;
 }
 
+#exercises a {
+  font-family: 'Open Sans', sans-serif;
+  color:#7A66FF;
+  font-size: 18px;
+}
+
+#weekly-exercises a {
+  font-family: 'Open Sans', sans-serif;
+  color:#7A66FF;
+  font-size: 18px;
+}
+
+#projects a {
+  font-family: 'Open Sans', sans-serif;
+  color:#7A66FF;
+  font-size: 38px;
+}
+
 .desc{
-  color: #45A5B0;
+  color: #73ABFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 38px;
 }
@@ -25,12 +43,13 @@ background: pink;
 
 h1{
   font-family: 'UnifrakturCook', cursive;
-  color:#B06D91
+  color:#5D70E8;
+  font-size: 98px;
 }
 
 h3{
   font-family: 'UnifrakturCook', cursive;
-  color:#FDB7DC;
+  color:#5D70E8;
   font-size: 38px;
 }
 
