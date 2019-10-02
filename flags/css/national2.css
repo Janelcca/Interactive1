@@ -41,8 +41,8 @@ img{
   position: absolute;
   top:10px;
   left:10px;
-  transition: .5s ease;
-  animation: shadow-pulse 3s infinite;
+  transition: .9s ease;
+  animation: shadow-pulse-big 8s infinite;
 }
 
 
@@ -57,7 +57,7 @@ img{
   left: 40px;
   z-index: 2;
   transition: .5s ease;
-  animation: shadow-pulse 1s infinite;
+  animation: shadow-pulse 5s infinite;
 }
 
 .circle3{
@@ -67,7 +67,7 @@ img{
   border-radius: 200px;
   border: 20px solid #C5C62F ;
   transition: .5s ease;
-  animation: shadow-pulse 1s infinite;
+  animation: shadow-pulse 3s infinite;
 
 }
 
@@ -82,6 +82,19 @@ img{
   left: 12px;
   z-index: 6;
 }
+.circle5{
+  width:300px;
+  height: 300px;
+  background-color:#EF892D;
+  border-radius: 400px;
+  border: 10px solid #C5C62F ;
+  top: -180px;
+  left: -582px;
+  transition: .5s ease;
+  animation: shadow-pulse-big 3s infinite;
+
+}
+
 
 .wrapper{
   padding: 20px;
@@ -90,11 +103,12 @@ img{
 @keyframes shadow-pulse
 {
   0% {
-    box-shadow: 3 0 0 0px rgba(5, 3, 2, 1.2);
+    box-shadow: 3 0 0 0px rgba(108, 238, 236, 1.2);
   }
   100% {
-    box-shadow: 0 0 0 35px rgba(1, 2, 3, 4);
+    box-shadow: 0 0 0 35px rgba(158, 238, 108, 1);
   }
+
 }
 
 @keyframes shadow-pulse-big
@@ -103,7 +117,7 @@ img{
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
   }
   100% {
-    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 60px rgba(238, 108, 223, 1);
   }
 }
 
