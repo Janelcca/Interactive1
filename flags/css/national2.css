@@ -22,6 +22,7 @@ body {
         height: 300px;
         position: relative;
         background-image: repeating-radial-gradient(circle at 100%, #EF892D, #C5C62F 10px, #97CEE9 10px, #ffffff 20px);
+        transition: all;
 }
 
 img{
@@ -67,7 +68,7 @@ img{
   border-radius: 200px;
   border: 20px solid #C5C62F ;
   transition: .5s ease;
-  animation: shadow-pulse 3s infinite;
+  animation: shadow-pulse 13s infinite;
 
 }
 
@@ -82,18 +83,44 @@ img{
   left: 12px;
   z-index: 6;
 }
+
 .circle5{
   width:300px;
   height: 300px;
   background-color:#EF892D;
   border-radius: 400px;
   border: 10px solid #C5C62F ;
-  top: -180px;
-  left: -582px;
+  top: 50px;
+  left: 5px;
   transition: .5s ease;
-  animation: shadow-pulse-big 3s infinite;
-
+  animation: shadow-pulse-big 10s infinite;
 }
+
+.circle6{
+  width:50px;
+  height:50px;
+  position:absolute;
+  top: 11px;
+  left: 322px;
+  background-color: #F3D659;
+  border-radius: 100px;
+  border:8px solid #97CEE9;
+  transition-property: margin-right, color #F3D659;
+  animation: shadow-pulse-big 3s infinite;
+  }
+
+  .circle7{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top: -119px;
+    left: 322px;
+    background-color: #F3D659;
+    border-radius: 100px;
+    border:8px solid #97CEE9;
+    transition-property: margin-right, color #F3D659;
+    animation: shadow-pulse-big 3s infinite;
+    }
 
 
 .wrapper{
