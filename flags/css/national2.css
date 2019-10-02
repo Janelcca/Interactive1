@@ -27,7 +27,7 @@ body {
 #canvas {
         width: 500px;
         height: 300px;
-        position: relative;
+        position: absolute;
         background-image: repeating-radial-gradient(circle at 100%, #EF892D, #C5C62F 10px, #97CEE9 10px, #ffffff 20px);
         transition: all;
 }
@@ -44,7 +44,7 @@ body {
   top:10px;
   left:10px;
   transition: .9s ease;
-  animation: shadow-pulse-big 8s infinite;
+  animation: shadow-pulse-big 22s infinite;
 }
 
 
@@ -69,7 +69,7 @@ body {
   border-radius: 200px;
   border: 20px solid #C5C62F ;
   transition: .5s ease;
-  animation: shadow-pulse 13s infinite;
+  animation: shadow-pulse 17s infinite;
 
 }
 
@@ -109,7 +109,7 @@ body {
   border-radius: 100px;
   border:8px solid #97CEE9;
   transition-property: margin-right, color #F3D659;
-  animation: shadow-pulse-big 66s infinite;
+  animation: shadow-pulse-big 77s infinite;
   }
 
   .circle7{
@@ -148,7 +148,7 @@ body {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
   }
   60% {
-    box-shadow: 0 0 0 60px rgba(238, 108, 223, 1);
+    box-shadow: 0 0 0 70px rgba(238, 108, 223, 1);
   }
 }
 
