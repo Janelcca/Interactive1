@@ -3,29 +3,35 @@
 }
 
 body {
-  background-color: #C5C62F;
+  background-color: #FDF7CF;
   font-family: 'UnifrakturCook', cursive;
   font-family: 'Open Sans', sans-serif;
 }
 
+.desc{
+  color: #45A5B0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
+}
 #container
 width: 500px;
 height: 300px;
 position: relative;
 background: pink;
 
-a {
-  color: #C5C62F;
+#exercise a:link {
+  color: #000000;
 }
 
 h1{
   font-family: 'UnifrakturCook', cursive;
-  color:#C5C62F;
+  color:#B06D91
 }
 
 h3{
   font-family: 'UnifrakturCook', cursive;
-  color:#8cdd40
+  color:#FDB7DC;
+  font-size: 38px;
 }
 
 p{
