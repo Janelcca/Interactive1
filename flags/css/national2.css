@@ -16,10 +16,10 @@ body {
   height:250px;
   position:absolute;
   top: -145px;
-  left: 22px;
+  left: 142px;
   background-color: #F3D659;
   border-radius: 100px;
-  border:8px solid #97CEE9;
+  border:8px opacity: 0.5; solid #97CEE9;
   transition-property: margin-right, color #F3D659;
   animation: shadow-pulse-big 17s infinite;
   }
@@ -77,6 +77,7 @@ body {
   width:44px;
   height: 44px;
   background-color:#F9CDE0;
+  opacity: 0.5;
   border-radius: 200px;
   border: 8px solid #F3D659 ;
   position: absolute;
@@ -116,12 +117,13 @@ body {
     height:50px;
     position:absolute;
     top: -119px;
-    left: 322px;
+    left: 122px;
     background-color: #F3D659;
-    border-radius: 100px;
+    opacity: 0.5;
+    border-radius: 77px;
     border:8px solid #97CEE9;
     transition-property: margin-right, color #F3D659;
-    animation: shadow-pulse-big 3s infinite;
+    animation: shadow-pulse-big .2s infinite;
     }
 
 
