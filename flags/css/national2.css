@@ -32,6 +32,7 @@ body {
         background-image: repeating-radial-gradient(circle at 100%, #EF892D, #C5C62F 10px, #97CEE9 10px, #ffffff 20px);
         transition: all;
         animation: bgcolor 17s infinite;
+        overflow: hidden;
 
 }
 
