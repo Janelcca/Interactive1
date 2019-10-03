@@ -9,6 +9,7 @@ body {
   font-size: 100px;
   font-family: cheap-pine-shadow, sans-serif;
   font-weight: 400;
+
 }
 #question{
   display: flex;
@@ -33,9 +34,11 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: black;
+    color: yellow;
     width: 100vw;
     height: 100vh;
+    font-family: cheap-pine-shadow, sans-serif;
+    font-weight: 400;
 
 
   }
