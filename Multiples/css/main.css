@@ -82,7 +82,7 @@ body {
     display: none;
 }
 /* tablet */
-@media (min-width: 670px) and (max-width: 1024px) {
+@media (min-width: 1020px) and (max-width: 1024px) {
     body {
         background: grey;
     }
@@ -109,7 +109,7 @@ body {
     }
 }
 /* tablet2 */
-@media (min-width: 570px) and (max-width: 924px) {
+@media (max-width: 670px) {
     body {
         background: grey;
     }
