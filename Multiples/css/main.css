@@ -11,19 +11,19 @@
     }
 
     30% {
-        background-color: #584F4F
+        background-color: #FFFFFF
     }
 
     60% {
-        background-color: #706565
+        background-color: #000000
     }
 
     90% {
-        background-color: #9E9595
+        background-color: #FFFFFF
     }
 
     100% {
-        background-color: #FFFFFF
+        background-color: #000000
     }
 }
 body {
@@ -32,15 +32,13 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
-#desktop {
+#desktop (min-width: 1020px) and (max-width: 1040px){
     display: inline;
-    color: white;
     position:absolute;
     top: 140px;
     left: 140px;
     transition: .5s ease;
 }
-#desktop,
 #desktop2,
 #tablet,
 #tablet2,
@@ -55,20 +53,18 @@ body {
 {
     display: none;
 }
-@media (min-width: 1024px)  {
+@media (min-width: 1010px) and (max-width: 1020px)  {
     body {
         background: grey;
     }
 #desktop2 {
     display: inline;
     position:absolute;
-    position:absolute;
     top: 140px;
     left: 140px;
     transition: .5s ease;
 }
 #desktop,
-#desktop2,
 #tablet,
 #tablet2,
 #mobile,
@@ -82,13 +78,12 @@ body {
     display: none;
 }
 /* tablet */
-@media (min-width: 1019px) {
+@media (min-width: 1000px) and (max-width: 1010px) {
     body {
         background: grey;
     }
     #tablet {
         display: inline;
-        color: white;
         position:absolute;
         top: 140px;
         left: 140px;
@@ -107,15 +102,13 @@ body {
     #itty2,{
         display: none;
     }
-}
 /* tablet2 */
-@media (min-width: 1011px) {
+@media (min-width: 1000px) and (max-width: 1011px) {
     body {
         background: grey;
     }
     #tablet2 {
         display: inline;
-        color: white;
         top: 140px;
         left: 140px;
         transition: .5s ease;
@@ -133,15 +126,13 @@ body {
     #itty2,{
         display: none;
     }
-}
 /* mobile */
-@media (min-width: 900px) {
+@media (min-width: 890px) and (max-width: 900px) {
     body {
         background: white;
     }
     #mobile {
         display: inline;
-        color: black;
         top: 140px;
         left: 140px;
         transition: .5s ease;
@@ -159,15 +150,14 @@ body {
     #itty2,{
         display: none;
     }
-}
+  }
 /* mobile2 */
-@media (min-width: 850px) {
+@media (min-width: 840px) and (max-width: 850px) {
     body {
         background: white;
     }
     #mobile2 {
         display: inline;
-        color: black;
         top: 140px;
         left: 140px;
         transition: .5s ease;
@@ -176,6 +166,7 @@ body {
     #desktop2,
     #tablet,
     #tablet2,
+    #mobile,
     #print,
     #print2
     #tiny,
@@ -184,6 +175,7 @@ body {
     #itty2, {
         display: none;
     }
+  }
 }
 /* print */
 @media (min-width: 800px) {
