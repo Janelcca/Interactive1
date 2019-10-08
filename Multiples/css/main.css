@@ -40,9 +40,19 @@ body {
     left: 140px;
     transition: .5s ease;
 }
+#desktop,
+#desktop2,
 #tablet,
+#tablet2,
 #mobile,
-#print {
+#mobile2,
+#print,
+#print2
+#tiny,
+#tiny2,
+#itty,
+#itty2,
+{
     display: none;
 }
 @media (min-width: 1024px)  {
@@ -52,13 +62,23 @@ body {
 #desktop2 {
     display: inline;
     position:absolute;
-    top: 160px;
-    left: 160px;
+    position:absolute;
+    top: 140px;
+    left: 140px;
     transition: .5s ease;
 }
+#desktop,
+#desktop2,
 #tablet,
+#tablet2,
 #mobile,
-#print {
+#mobile2,
+#print,
+#print2
+#tiny,
+#tiny2,
+#itty,
+#itty2,{
     display: none;
 }
 /* tablet */
@@ -69,13 +89,22 @@ body {
     #tablet {
         display: inline;
         color: white;
-        top: 40px;
-        left: 40px;
+        position:absolute;
+        top: 140px;
+        left: 140px;
         transition: .5s ease;
     }
     #desktop,
+    #desktop2,
+    #tablet2,
     #mobile,
-    #print {
+    #mobile2,
+    #print,
+    #print2
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2,{
         display: none;
     }
 }
@@ -87,13 +116,21 @@ body {
     #tablet2 {
         display: inline;
         color: white;
-        top: 40px;
-        left: 40px;
+        top: 140px;
+        left: 140px;
         transition: .5s ease;
     }
     #desktop,
+    #desktop2,
+    #tablet,
     #mobile,
-    #print {
+    #mobile2,
+    #print,
+    #print2
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2,{
         display: none;
     }
 }
@@ -105,10 +142,21 @@ body {
     #mobile {
         display: inline;
         color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
     }
     #desktop,
+    #desktop2,
     #tablet,
-    #print {
+    #tablet2,
+    #mobile2,
+    #print,
+    #print2
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2,{
         display: none;
     }
 }
@@ -117,20 +165,27 @@ body {
     body {
         background: white;
     }
-    #mobile {
+    #mobile2 {
         display: inline;
         color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
     }
     #desktop,
     #desktop2,
     #tablet,
     #tablet2,
     #print,
-    #mobile2, {
+    #print2
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2, {
         display: none;
     }
 }
-/* mobile2 */
+/* print */
 @media (max-width: 270px) {
     body {
         background: white;
@@ -138,24 +193,9 @@ body {
     #print {
         display: inline;
         color: black;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2, {
-        display: none;
-    }
-}
-/* print */
-@media print {
-    body {
-        background: white;
-    }
-    #print {
-        display: inline;
-        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
     }
     #desktop,
     #desktop2,
@@ -163,16 +203,146 @@ body {
     #tablet2,
     #mobile,
     #mobile2,
-    #print2 {
+    #print2
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2, {
         display: none;
     }
 }
 /* print2 */
-@media print2 {
+@media (max-width: 170px) {
     body {
         background: white;
     }
     #print2 {
+        display: inline;
+        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print,
+    #tiny,
+    #tiny2,
+    #itty,
+    #itty2,{
+        display: none;
+    }
+}
+/* tiny */
+@media (max-width: 150px)tiny {
+    body {
+        background: white;
+    }
+    #tiny {
+        display: inline;
+        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print,
+    #print2
+    #tiny2,
+    #itty,
+    #itty2, {
+        display: none;
+    }
+}
+/* tiny2 */
+@media (max-width: 130px)tiny2 {
+    body {
+        background: white;
+    }
+    #tiny2 {
+        display: inline;
+        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print,
+    #print2
+    #itty,
+    #itty2, {
+        display: none;
+    }
+}
+/* itty */
+@media (max-width: 110px)itty {
+    body {
+        background: white;
+    }
+    #itty {
+        display: inline;
+        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print,
+    #print2
+    #tiny,
+    #itty2, {
+        display: none;
+    }
+}
+/* itty2 */
+@media (max-width: 80px)itty2 {
+    body {
+        background: white;
+    }
+    #itty2 {
+        display: inline;
+        color: black;
+        top: 140px;
+        left: 140px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print,
+    #print2
+    #tiny, {
+        display: none;
+    }
+}
+/* itty2 */
+@media (max-width: 70px)itty2 {
+    body {
+        background: white;
+    }
+    #itty2 {
         display: inline;
         color: black;
     }
@@ -182,7 +352,10 @@ body {
     #tablet2,
     #mobile,
     #mobile2,
-    #print, {
+    #print,
+    #print2
+    #tiny,
+    #itty, {
         display: none;
     }
 }
