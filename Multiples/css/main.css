@@ -1,0 +1,188 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #000000
+    }
+
+    30% {
+        background-color: #584F4F
+    }
+
+    60% {
+        background-color: #706565
+    }
+
+    90% {
+        background-color: #9E9595
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+}
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+#desktop {
+    display: inline;
+    color: white;
+    position:absolute;
+    top: 140px;
+    left: 140px;
+    transition: .5s ease;
+}
+#tablet,
+#mobile,
+#print {
+    display: none;
+}
+@media (min-width: 1024px)  {
+    body {
+        background: grey;
+    }
+#desktop2 {
+    display: inline;
+    position:absolute;
+    top: 160px;
+    left: 160px;
+    transition: .5s ease;
+}
+#tablet,
+#mobile,
+#print {
+    display: none;
+}
+/* tablet */
+@media (min-width: 670px) and (max-width: 1024px) {
+    body {
+        background: grey;
+    }
+    #tablet {
+        display: inline;
+        color: white;
+        top: 40px;
+        left: 40px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #mobile,
+    #print {
+        display: none;
+    }
+}
+/* tablet2 */
+@media (min-width: 570px) and (max-width: 924px) {
+    body {
+        background: grey;
+    }
+    #tablet2 {
+        display: inline;
+        color: white;
+        top: 40px;
+        left: 40px;
+        transition: .5s ease;
+    }
+    #desktop,
+    #mobile,
+    #print {
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width: 470px) {
+    body {
+        background: white;
+    }
+    #mobile {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #tablet,
+    #print {
+        display: none;
+    }
+}
+/* mobile2 */
+@media (max-width: 370px) {
+    body {
+        background: white;
+    }
+    #mobile {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #print,
+    #mobile2, {
+        display: none;
+    }
+}
+/* mobile2 */
+@media (max-width: 270px) {
+    body {
+        background: white;
+    }
+    #print {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2, {
+        display: none;
+    }
+}
+/* print */
+@media print {
+    body {
+        background: white;
+    }
+    #print {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print2 {
+        display: none;
+    }
+}
+/* print2 */
+@media print2 {
+    body {
+        background: white;
+    }
+    #print2 {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #desktop2,
+    #tablet,
+    #tablet2,
+    #mobile,
+    #mobile2,
+    #print, {
+        display: none;
+    }
+}
