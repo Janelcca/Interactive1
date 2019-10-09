@@ -1,7 +1,7 @@
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 60px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -32,12 +32,18 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
-#desktop (min-width: 1020px) and (max-width: 1040px){
-    display: inline;
-    position:absolute;
-    top: 140px;
-    left: 140px;
-    transition: .5s ease;
+#desktop {
+  width:190px;
+  height:250px;
+  position:absolute;
+  top: 145px;
+  left: 142px;
+  background-color: #F3D659;
+  animation: bgcolor 17s infinite;
+  border-radius: 100px;
+  border:8px opacity: 0.5; solid #97CEE9;
+  transition-property: margin-right, color #F3D659;
+  animation: shadow-pulse-big 17s infinite;
 }
 #desktop2,
 #tablet,
@@ -51,18 +57,27 @@ body {
 #itty,
 #itty2,
 {
-    display: none;
+    display:none;
+    visibility: hidden;
 }
+}
+
 @media (min-width: 1010px) and (max-width: 1020px)  {
     body {
         background: grey;
     }
 #desktop2 {
-    display: inline;
-    position:absolute;
-    top: 140px;
-    left: 140px;
-    transition: .5s ease;
+  width:190px;
+  height:250px;
+  position:absolute;
+  top: 145px;
+  left: 142px;
+  background-color: #F3D659;
+  animation: bgcolor 17s infinite;
+  border-radius: 100px;
+  border:8px opacity: 0.5; solid #97CEE9;
+  transition-property: margin-right, color #F3D659;
+  animation: shadow-pulse-big 17s infinite;
 }
 #desktop,
 #tablet,
@@ -83,11 +98,17 @@ body {
         background: grey;
     }
     #tablet {
-        display: inline;
-        position:absolute;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
+      width:190px;
+      height:250px;
+      position:absolute;
+      top: -145px;
+      left: 142px;
+      background-color: #F3D659;
+      animation: bgcolor 17s infinite;
+      border-radius: 100px;
+      border:8px opacity: 0.5; solid #97CEE9;
+      transition-property: margin-right, color #F3D659;
+      animation: shadow-pulse-big 17s infinite;
     }
     #desktop,
     #desktop2,
@@ -101,6 +122,8 @@ body {
     #itty,
     #itty2,{
         display: none;
+        visibility: hidden;
+
     }
 /* tablet2 */
 @media (min-width: 1000px) and (max-width: 1011px) {
@@ -125,6 +148,8 @@ body {
     #itty,
     #itty2,{
         display: none;
+        visibility: hidden;
+
     }
 /* mobile */
 @media (min-width: 890px) and (max-width: 900px) {
@@ -149,6 +174,8 @@ body {
     #itty,
     #itty2,{
         display: none;
+        visibility: hidden;
+
     }
   }
 /* mobile2 */
@@ -174,6 +201,8 @@ body {
     #itty,
     #itty2, {
         display: none;
+        visibility: hidden;
+
     }
   }
 }
@@ -201,6 +230,8 @@ body {
     #itty,
     #itty2, {
         display: none;
+        visibility: hidden;
+
     }
 }
 /* print2 */
@@ -227,6 +258,8 @@ body {
     #itty,
     #itty2,{
         display: none;
+        visibility: hidden;
+
     }
 }
 /* tiny */
@@ -253,6 +286,8 @@ body {
     #itty,
     #itty2, {
         display: none;
+        visibility: hidden;
+
     }
 }
 /* tiny2 */
@@ -278,6 +313,8 @@ body {
     #itty,
     #itty2, {
         display: none;
+        visibility: hidden;
+
     }
 }
 /* itty */
@@ -303,18 +340,20 @@ body {
     #tiny,
     #itty2, {
         display: none;
+        visibility: hidden;
+
     }
 }
 /* itty2 */
-@media (max-width: 80px)itty2 {
+@media (max-width: 80px) {
     body {
         background: white;
     }
     #itty2 {
         display: inline;
         color: black;
-        top: 140px;
-        left: 140px;
+        top: 540px;
+        left: 540px;
         transition: .5s ease;
     }
     #desktop,
@@ -327,16 +366,19 @@ body {
     #print2
     #tiny, {
         display: none;
+        visibility: hidden;
     }
 }
 /* itty2 */
-@media (max-width: 70px)itty2 {
+@media screen and (max-width: 70px){
     body {
         background: white;
     }
     #itty2 {
         display: inline;
         color: black;
+        animation: shadow-pulse-big 17s infinite;
+
     }
     #desktop,
     #desktop2,
@@ -349,5 +391,32 @@ body {
     #tiny,
     #itty, {
         display: none;
+        animation: shadow-pulse-big 17s infinite;
+
     }
+}
+
+.wrapper{
+  padding: 20px;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 3 0 0 0px rgba(108, 238, 236, 1.2);
+  }
+  40% {
+    box-shadow: 0 0 0 35px rgba(158, 238, 108, 1);
+  }
+
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  60% {
+    box-shadow: 0 0 0 70px rgba(238, 108, 223, 1);
+  }
 }
