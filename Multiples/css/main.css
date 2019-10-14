@@ -42,7 +42,6 @@ body {
 
     #mobile {
         display: inline;
-        color: black;
         animation: shake 0.5;
         animation-iteration-count: infinite;
         position: absolute;
@@ -97,15 +96,20 @@ body {
     60% {
         background-color: #eb670f
     }
-
-    90% {
+    80% {
         background-color: #f35
     }
 
-    100% {
+    90% {
         background-color: #864cbf
     }
+
+    100% {
+        background-color: ##141414
+    }
 }
+
+
 
 body {
     -webkit-animation: bgcolor 20s infinite;
