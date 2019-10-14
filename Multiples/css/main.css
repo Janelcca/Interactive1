@@ -1,421 +1,115 @@
 
+
 * {
-    margin: 60px;
-    padding: 10px;
+    margin: 13px;
+    padding: 13px;
     box-sizing: border-box;
 }
-
-@keyframes bgcolor {
-    0% {
-        background-color: #000000
-    }
-
-    30% {
-        background-color: #FFFFFF
-    }
-
-    60% {
-        background-color: #000000
-    }
-
-    90% {
-        background-color: #FFFFFF
-    }
-
-    100% {
-        background-color: #000000
-    }
-}
 body {
-    -webkit-animation: bgcolor 20s infinite;
-    animation: bgcolor 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    background: black;
 }
 #desktop {
-  width:190px;
-  height:250px;
-  position:absolute;
-  top: 145px;
-  left: 142px;
-  background-color: #F3D659;
-  animation: bgcolor 17s infinite;
-  border-radius: 100px;
-  border:8px opacity: 0.5; solid #97CEE9;
-  transition-property: margin-right, color #F3D659;
-  animation: shadow-pulse-big 17s infinite;
+    display: inline;
+    color: white;
 }
-#desktop2,
 #tablet,
-#tablet2,
 #mobile,
-#mobile2,
-#print,
-#print2
-#tiny,
-#tiny2,
-#itty,
-#itty2,
-{
-    display:none;
-    visibility: hidden;
-}
-}
-
-@media (min-width: 1010px) and (max-width: 1020px)  {
-    body {
-        background: grey;
-    }
-#desktop2 {
-  width:190px;
-  height:250px;
-  position:absolute;
-  top: 145px;
-  left: 142px;
-  background-color: #F3D659;
-  animation: bgcolor 17s infinite;
-  border-radius: 100px;
-  border:8px opacity: 0.5; solid #97CEE9;
-  transition-property: margin-right, color #F3D659;
-  animation: shadow-pulse-big 17s infinite;
-}
-#desktop,
-#tablet,
-#tablet2,
-#mobile,
-#mobile2,
-#print,
-#print2
-#tiny,
-#tiny2,
-#itty,
-#itty2,{
+#print {
     display: none;
 }
 /* tablet */
-@media (min-width: 1000px) and (max-width: 1010px) {
+@media (min-width: 670px) and (max-width: 1024px) {
     body {
         background: grey;
+        animation: shake 0.5;
+        animation-iteration-count: infinite;
     }
     #tablet {
-      width:190px;
-      height:250px;
-      position:absolute;
-      top: -145px;
-      left: 142px;
-      background-color: #F3D659;
-      animation: bgcolor 17s infinite;
-      border-radius: 100px;
-      border:8px opacity: 0.5; solid #97CEE9;
-      transition-property: margin-right, color #F3D659;
-      animation: shadow-pulse-big 17s infinite;
-    }
-    #desktop,
-    #desktop2,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2,{
-        display: none;
-        visibility: hidden;
-
-    }
-/* tablet2 */
-@media (min-width: 1000px) and (max-width: 1011px) {
-    body {
-        background: grey;
-    }
-    #tablet2 {
         display: inline;
-        top: 140px;
-        left: 140px;
+        color: white;
     }
     #desktop,
-    #desktop2,
-    #tablet,
     #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2,{
+    #print {
         display: none;
-        visibility: hidden;
-
     }
+}
 /* mobile */
-@media (min-width: 890px) and (max-width: 900px) {
+@media (max-width: 670px) {
     body {
         background: white;
     }
+
     #mobile {
         display: inline;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile2,
-    #print,
-    #print2
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2,{
-        display: none;
-        visibility: hidden;
+        color: black;
+        animation: shake 0.5;
+        animation-iteration-count: infinite;
+        position: absolute;
 
     }
-  }
-/* mobile2 */
-@media (min-width: 840px) and (max-width: 850px) {
-    body {
-        background: white;
-    }
-    #mobile2 {
-        display: inline;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
     #desktop,
-    #desktop2,
     #tablet,
-    #tablet2,
-    #mobile,
-    #print,
-    #print2
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2, {
+    #print {
         display: none;
-        visibility: hidden;
-
     }
-  }
 }
 /* print */
-@media (min-width: 800px) {
+@media print {
     body {
         background: white;
     }
     #print {
         display: inline;
         color: black;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
     }
     #desktop,
-    #desktop2,
     #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print2
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2, {
+    #mobile {
         display: none;
-        visibility: hidden;
-
-    }
-}
-/* print2 */
-@media (min-width: 750px) {
-    body {
-        background: white;
-    }
-    #print2 {
-        display: inline;
-        color: black;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #tiny,
-    #tiny2,
-    #itty,
-    #itty2,{
-        display: none;
-        visibility: hidden;
-
-    }
-}
-/* tiny */
-@media (min-width: 700px)tiny {
-    body {
-        background: white;
-    }
-    #tiny {
-        display: inline;
-        color: black;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny2,
-    #itty,
-    #itty2, {
-        display: none;
-        visibility: hidden;
-
-    }
-}
-/* tiny2 */
-@media (max-width: 130px)tiny2 {
-    body {
-        background: white;
-    }
-    #tiny2 {
-        display: inline;
-        color: black;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #itty,
-    #itty2, {
-        display: none;
-        visibility: hidden;
-
-    }
-}
-/* itty */
-@media (max-width: 110px)itty {
-    body {
-        background: white;
-    }
-    #itty {
-        display: inline;
-        color: black;
-        top: 140px;
-        left: 140px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny,
-    #itty2, {
-        display: none;
-        visibility: hidden;
-
-    }
-}
-/* itty2 */
-@media (max-width: 80px) {
-    body {
-        background: white;
-    }
-    #itty2 {
-        display: inline;
-        color: black;
-        top: 540px;
-        left: 540px;
-        transition: .5s ease;
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny, {
-        display: none;
-        visibility: hidden;
-    }
-}
-/* itty2 */
-@media screen and (max-width: 70px){
-    body {
-        background: white;
-    }
-    #itty2 {
-        display: inline;
-        color: black;
-        animation: shadow-pulse-big 17s infinite;
-
-    }
-    #desktop,
-    #desktop2,
-    #tablet,
-    #tablet2,
-    #mobile,
-    #mobile2,
-    #print,
-    #print2
-    #tiny,
-    #itty, {
-        display: none;
-        animation: shadow-pulse-big 17s infinite;
-
     }
 }
 
-.wrapper{
-  padding: 20px;
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@keyframes shadow-pulse
-{
-  0% {
-    box-shadow: 3 0 0 0px rgba(108, 238, 236, 1.2);
-  }
-  40% {
-    box-shadow: 0 0 0 35px rgba(158, 238, 108, 1);
-  }
 
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
 }
 
-@keyframes shadow-pulse-big
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
-  }
-  60% {
-    box-shadow: 0 0 0 70px rgba(238, 108, 223, 1);
-  }
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
