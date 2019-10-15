@@ -1,5 +1,7 @@
 * {
-        margin: 0px; padding: 0px;
+    margin: 13px;
+    padding: 13px;
+    box-sizing: border-box;
 }
 
 body {
