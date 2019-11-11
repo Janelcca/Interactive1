@@ -24,25 +24,30 @@ a {
     font-size: 25px;
 
 
-
-}
-
-p{
-  line-height: 20px;
-  width: 280px;
-
 }
 p{
-  line-height: 20px;
+  line-height: 30px;
   width: 280px;
   animation: pulse 5s infinite;
   padding: 30px;
+  font-size: 25px;
+}
+.hero{
+  font-family: 'Monoton', cursive;
+  padding-top: 50px;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 40px;
+  color:#cd00cd;
+
 }
 
 h1{
   font-family: 'Monoton', cursive;
-  padding-top: 150px;
+  padding-top: 350px;
   font-size: 75px;
+  text-decoration: none;
+  color:#cd00cd;
 
 
 
