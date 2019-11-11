@@ -23,7 +23,10 @@ a {
     font-family: 'Monoton', cursive;
     font-size: 25px;
 
+
+
 }
+
 p{
   line-height: 20px;
   width: 280px;
@@ -42,6 +45,7 @@ h1{
   font-size: 75px;
 
 
+
 }
 
 img:hover {
@@ -51,8 +55,14 @@ img:hover {
 
 .face{
     background-color: none;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      width: 200px;
+    }
 
 }
+
 .itunes{
     background-color: none;
     padding: 30px;
