@@ -31,6 +31,13 @@ p{
   animation: pulse 5s infinite;
   padding: 30px;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #F79C0A;
+  width: 100vw;
+  height: 100vh;
 }
 .hero{
   font-family: 'Monoton', cursive;
@@ -71,8 +78,23 @@ img:hover {
 	transform: rotate(360deg) scale(1.4);
 	-webkit-transition: .8s ease-in-out;
 	transition: .3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
 
 
+}
+img{
+  display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+color: #F79C0A;
+width: 100vw;
+height: 100vh;
 }
 
 .face{
@@ -111,7 +133,9 @@ img:hover {
     background-color: #0b000b;
   }
 }
-
+  @media (max-width: 1024px) {
+    
+    }
 
 // For tablet viewers
  @media(max-width: 768px){
