@@ -48,9 +48,22 @@ h1{
   font-size: 75px;
   text-decoration: none;
   color:#cd00cd;
+}
 
-
-
+h2{
+  font-family: 'Monoton', cursive;
+  padding-top: 3px;
+  font-size: 45px;
+  text-decoration: none;
+  color:#cd00cd;
+  box-shadow: 5px 10px;
+  outline-color: coral;
+  width: 100px;
+  height: 100px;
+  -webkit-transition-property: width; /* Safari */
+  -webkit-transition-duration: 5s; /* Safari */
+  transition-property: width;
+  transition-duration: 5s;
 }
 
 img:hover {
