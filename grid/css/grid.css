@@ -14,14 +14,14 @@ width:100%;
 }
 
 a {
-  color:white;
+  color:	#89ecda;
   display:inline-block;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
   transform: rotate(-20deg);
     font-family: 'Monoton', cursive;
-    font-size: 25px;
+    font-size: 85px;
 
 
 }
