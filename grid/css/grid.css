@@ -54,6 +54,10 @@ h1{
 }
 
 img:hover {
+  -webkit-transform: rotate(360deg) scale(1.4);
+	transform: rotate(360deg) scale(1.4);
+	-webkit-transition: .8s ease-in-out;
+	transition: .3s ease-in-out;
 
 
 }
