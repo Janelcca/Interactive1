@@ -62,6 +62,17 @@ div {
     border-radius: 90px 90px 90px 90px;
 }
 
+
+.letter div.intersect8 {
+  width: 0;
+  height: 0px;
+  background-color: #57e2fa;
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  border-radius: 90px 90px 90px 90px;
+}
+
 .letter div.intersectQ {
   width: 0;
   height: 0px;
@@ -114,6 +125,7 @@ div {
   border-radius: 90px 0 0 0;
   -moz-border-radius: 90px 0 0 0;
   -webkit-border-radius: 90px 0 0 0;
+  transform: 
 
 }
 
@@ -317,75 +329,7 @@ div {
 
 
 
-.number {
-	position: relative;
-	margin: 80px;
 
-	display: grid;
-	float: left;
-
-	grid-template-columns: 20px 20px 20px 20px;
-	grid-template-rows: 20px 20px 20px 20px;
-	grid-gap: 20px 20px;
-}
-
-
-
-.number div {
-	border-radius: 0px;
-	background: #fc72ef;
-  box-shadow:3px 3px 30px #fc72ef;
-
-}
-
-.number div.empty {
-	background: transparent;
-  box-shadow: none;
-}
-
-
-.number:hover {
-   transition-duration: 3s;
-   transform: scale(2);
-   transform: rotate(1080deg);
-
-}
-
-
-
-
-.punctuation {
-  position: relative;
-	margin: 80px;
-
-	display: grid;
-	float: left;
-
-	grid-template-columns: 20px 20px 20px 20px 20px;
-	grid-template-rows: 20px 20px 20px 20px 20px;
-	grid-gap: 0px 0px;
-}
-
-
-/* letter pieces */
-
-.punctuation div {
-  border-radius: 20px;
-	background: #fc72ef;
-  box-shadow:3px 3px 30px #fc72ef;
-}
-
-.punctuation div.empty {
-	background: transparent;
-  box-shadow: none;
-}
-
-
-.punctuation:hover {
-   transition-duration: 3s;
-   transform: scale(2);
-   transform: rotate(1080deg);
-}
 @import 'https://fonts.googleapis.com/css?family=Bree+Serif';
 
 
